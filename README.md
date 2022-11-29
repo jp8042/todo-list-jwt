@@ -16,23 +16,20 @@ npm install
 ``` javascript
 npm run start
 ```
-## Live Demo
-https://todo-list-e7ej.onrender.com/api/users/register
-
 
 ## Account
 
 | Route | Method	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
-| /api/users/register | `POST` | {"username":"kasra", "password":"123456"} | Register an account. |
-| /api/users/login | `GET` | {"username":"kasra", "password":"123456"} | Login to an account. |
+| /api/users/register | `POST` | {"username":"jevesh", "password":"123456"} | Register an account. |
+| /api/users/login | `GET` | {"username":"jevesh", "password":"123456"} | Login to an account. |
 
 ## Task List
 
 | Route | Method	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
 | /api/tasks | `POST` | {"title" : "list2","description" : "task1 description"} | New tasks list. |
-| /api/tasks | `GET` | {"username":"kasra", "password":"123456"} | Get tasks list. |
+| /api/tasks | `GET` | {"username":"jevesh", "password":"123456"} | Get tasks list. |
 | /api/tasks/:id | `DELETE` | - | Delete tasks list. |
 | /api/tasks/:id | `PATCH` | {"description":"edited1","title":"title1"} | Edit tasks list. |
 | /api/tasks/add-list | `POST` | [{"title" : "list 2","description" : "description"}] | Add list of lists. |
